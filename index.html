@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <div class="sidebar" id="mysidebar"><button onclick="sd_close()" style="color: aliceblue;">Close &times;</button>
+        <a href="#">Home</a><br>
+        <a href="#">Service</a><br>
+        <a href="#">Portfolio</a><br>
+        <a href="#">Resume</a><br>
+        <a href="#">Skills</a><br>
+        <a href="#">Contact</a><br>
+        </div>
+        <button onclick="sd_open()">☰</button>
+        <div class="details"></div>
+        <p>Name</p>
+        <h4>Amy Stone</h4>
+        <br>
+        <p>Role</p>
+        <h4>Designer</h4>
+        <br>
+        <p>Email</p>
+        <h4>abc@gmail.com</h4>
+        <br>
+        <p>Phone</p>
+        <h4>(+91)6433 255 734</h4>
+    </div>
+    <script>
+        function sd_open(){
+            document.getElementById("mysidebar").style.display="block";
+        }
+        function sd_close(){
+            document.getElementById("mysidebar").style.display="none";
+        }
+        
+    </script>
+    <div class="two">
+        <p style="margin-top: 50px;color: rgb(6, 6, 6);font-size: 30px;">Hello! my name is  </p>
+        <p style="font-size: 100px;color: hsl(9, 97%, 70%);margin-top: 55px;margin-left: 50px;">AMY STONE</p>
+        <p style="color: rgb(104, 100, 100);margin-top: 50px;letter-spacing: 0px;">A full stack all around designer that may or may not include a guide for specific creative potential methods who framing and evaluating moves.</p><br><br><br>
+        <a href="#" style="margin-top:70px ;color: black;font-size: 15px;margin-left: 40px;">LINKEDIN</a>
+        <a href="#" style="margin-top:70px ;color: black;font-size: 15px;margin-left: 40px;">INSTAGRAM</a>
+        <a href="#" style="margin-top:70px ;color: black;font-size: 15px;margin-left: 40px;">TWITTER</a>
+    </div>
+    <div class="three"><img src="./img1.jpg" alt="img not found" width="100%" height="100%" ></div>
+    <div class="four" >
+        <img src="./img2.jpg" alt="text" height="33%" width="33%" style="margin-top:10px;">
+        <img src="./img3.jpg" alt="text" height="33%" width="33%" >
+        <img src="./img4.jpg" alt="text" height="33%" width="33%" >
+        <img src="./img5.jpg" alt="text" height="33%" width="33%" style="margin-bottom:10px ">
+        <img src="./img6.jpg" alt="text" height="33%" width="33%" style="margin-bottom:10px ">
+        <img src="./img7.jpg" alt="text" height="33%" width="33%" style="margin-bottom:10px "; >
+    </div>
+</body>
+</html>

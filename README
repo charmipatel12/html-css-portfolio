@@ -1,0 +1,26 @@
+# Personal Portfolio Landing Page
+
+A clean and modern portfolio landing page created using HTML, CSS, and JavaScript.
+
+## Features
+- Sidebar navigation menu
+- Personal profile section
+- Hero/Introduction section
+- Social media links
+- Image gallery
+- Simple JavaScript interactions
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## Future Improvements
+- Make the layout fully responsive
+- Add smooth scrolling
+- Add animations
+- Connect contact form
+- Dark mode support
+
+## Author
+charmi patel

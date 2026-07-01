@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: aliceblue;
+    margin-left:40px;
+    margin-right:10px;
+    
+}
+.details{
+    margin-top: 120px; 
+}
+h4{
+    margin-left: 40px;
+    color: coral;
+}
+.one{
+    width: 25%;
+    height: 750px;
+    background-color: rgb(28, 1, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    display: block;
+    position: fixed;
+    p{
+        letter-spacing: 2px;
+    }
+    
+}
+.two{
+    margin-left: 364px;
+    float: left;
+    width: 35%;
+    height: 750px;
+    background-color: rgb(249, 241, 244);
+    
+}
+.three{
+    float:right;
+    width: 41%;
+    height: 750px;
+    
+}
+.four{
+    background-color: rgb(39, 20, 20);
+    float:right;
+    width: 75%;
+}
+.sidebar{
+    display: none;
+}
+button{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a{
+    color: aliceblue;
+}
